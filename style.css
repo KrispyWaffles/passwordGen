@@ -107,6 +107,32 @@ border-radius: 50%;
 
 }
 
+#copy-btn:hover {
+    color: var(--primary-color);
 
+
+}
+
+.options {
+   
+margin-bottom: 2rem;
+border-color: #f8f8fc;
+padding: 1.5rem;
+border-radius: 10px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+
+}
+
+.option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+
+.option:last-child {
+    margin-bottom: 0;
+}
 
 
